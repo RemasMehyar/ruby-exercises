@@ -1,6 +1,6 @@
 def add(a, b)
   # return the result of adding a and b
-  a + b
+   a + b
 end
 
 def subtract(a, b)
@@ -25,7 +25,7 @@ end
 
 def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
-  a / b
+  a.to_f / b
 end
 
 def string_to_number(string)
